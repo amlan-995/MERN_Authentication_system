@@ -1,40 +1,30 @@
-marnAuth/
-├── .gitignore
-├── README.md
-├── server/                 # Backend (Node.js + Express + MongoDB)
-│   ├── config/
+\MernAuth\
+├── server\
+│   ├── config\
 │   │   └── mongodb.js
-│   ├── controllers/
+│   ├── controllers\
 │   │   ├── authController.js
 │   │   └── userController.js
-│   ├── middleware/
+│   ├── middleware\
 │   │   ├── authMiddleware.js
 │   │   └── errorMiddleware.js
-│   ├── models/
+│   ├── models\
 │   │   ├── User.js
 │   │   └── Token.js
-│   ├── routes/
+│   ├── routes\
 │   │   ├── authRoutes.js
 │   │   └── userRoutes.js
-│   ├── utils/
+│   ├── utils\
 │   │   ├── generateToken.js
 │   │   └── sendEmail.js
-│   ├── .env.example       # Environment variables template
-│   ├── package.json
 │   └── server.js
-└── client/                # Frontend (React)
-    ├── public/
+└── client\
+    ├── public\
     │   └── index.html
-    ├── src/
-    │   ├── pages/
-    │   │   ├── Register.js
-    │   │   ├── Login.js
-    │   │   └── Dashboard.js
-    │   ├── services/
-    │   │   └── api.js
-    │   ├── App.js
-    │   ├── index.js
-    │   ├── App.css
-    │   └── index.css
-    ├── package.json
-    └── package-lock.json
+    ├── src\
+    │   ├── components\
+    │   ├── pages\
+    │   ├── services\
+    │   ├── utils\
+    │   └── App.js
+    └── package.json
